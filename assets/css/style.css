@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background: url('../images/spiration-light.png') repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    background: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav {
+    width: 300px; 
+    float: right;
+    margin-top: 35px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+form {
+    font-size: 18px;
+    display: block;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+}
+
+input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0px 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 300px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+}
+
+footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #ccc;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+nav a {
+    color: #333;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777777;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+#left-column, #right-column {
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+}
+
+#left-column {
+    width: 650px;
+    float: left;
+}
+
+#left-column h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#right-column {
+    width: 270px;
+    float: right;
+}
+
+#right-column h3 {
+    font-size: 20px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+#right-column ul {
+    text-align: center;
+}
+
+#right-column ul li {
+    display: inline-block;
+}
+
+#right-column ul li img {
+    width: 60px;
+}

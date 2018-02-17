@@ -1,45 +1,60 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Derek's 1st Assignment</title>
-  <link rel="stylesheet" type="text/css" href="syle.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Home | Portfolio: Derek Ambrose</title>
+   <link rel="stylesheet" href="./assets/css/reset.css">
+   <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
-
 <body>
-  <header><h2>Derek Ambrose</h2></header>
-  <main><h2>About Me</h2></main>
-  <aside><h2>Connect with Me</h2></aside>
-  <footer><h3><Copyright></h3></footer>
+    <header>
+        <div class="wrapper">
+            <h1>Derek Ambrose</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section id="left-column">
+            <h2>About Me</h2>
+
+            <img src="https://i.ytimg.com/vi/A81q7Rmfqj8/maxresdefault.jpg" alt="Picture of Derek" width="350" height="197" class="inline-img">
+                <p>Hello! I'm Derek Ambrose and I am a native of New Orleans, Louisiana, the older of my parents' two children.</p> 
+                    
+                <p>I have a background in Sports Communication and hold two master’s degrees (from Emory University and The Interdenominational Center) and both schools are located in Atlanta, Georgia. I have worked in management roles both as a graduate student and as an Army Officer. I played football at Mississippi State on athletic scholarship.  
+                    
+                <p>Presently, I am pursuing a new career path in Web Development and am enrolled at the Georgia Tech Coding Bootcamp. Prior to "tech", I was a stay-at-home dad, and prior to becoming a veteran I worked with graduate students as the Assistant Dean of Student Support and Recruitment.</p>
+                    
+                <p>I have three children: Channing, my "princess"; Kensington, my "pearl"; and last but not least, Gabriel, who's nickname is "Jesus Christ, Gabriel".<p>
+
+                <p>Fun fact: I have seen "Frozen" at least 50 times more than you - guaranteed.</p>
+        </section>
+
+        <aside id="right-column">
+
+        <h3>Connect with Me</h3>
+        <ul>
+            <li><a href="https://github.com/dsambrose26" target="_blank"><img src="./assets/images/github.png" alt="GitHub"/></a></li>
+            <li><a href="https://www.linkedin.com/in/derek-ambrose-157830144/" target="_blank"><img src="./assets/images/linkedin.png" alt="LinkedIn"/></a></li>
+            <li><a href="http://flexonpoint.com/" target="_blank"><img src="./assets/images/flexonpoint.png" alt="FlexOnPoint"/></a></li>
+        </ul>
+        </aside>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        &copy;2018 Derek Ambrose
+    </footer>
+
 </body>
-
-<style>
- * { margin: 0; padding: 0; }
-
-body {
-  width: 962px;
-  background-color: white;
-  margin: 15px auto;
-  border: 1px solid black; }
-
-h1   
-{ padding: 1em; }
-
-header { border-bottom: 2px solid turquoise; }
-
-main { 
-    height: 350px;
-    width: 600px;
-    float: left;
-    border-right: 2px solid turquoise }
-
-aside {
-    width: 360px;
-    float: right; }
-
-footer {
-    clear: both; 
-    border-top: 2px solid turquoise }
-</style>
 </html>
