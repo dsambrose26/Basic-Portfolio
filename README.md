@@ -1,2 +1,3 @@
 # Basic-Portfolio
-HW 1 - Basic Portfolio with HTML &amp; CSS
+Basic Portfolio with HTML &amp; CSS
+https://dsambrose26.github.io/Basic-Portfolio/
