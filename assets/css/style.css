@@ -111,6 +111,29 @@ nav ul li:last-child a {
     border: 1px solid #777777;
 }
 
+.portfolio-item {
+    position: relative;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+    height: 250px;
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+}
+
 .clearfix {
     display: block;
     clear: both;
@@ -157,3 +180,40 @@ nav ul li:last-child a {
 #right-column ul li img {
     width: 60px;
 }
+
+#pic1 {
+    background: url('../images/pic1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic2 {
+    background: url('../images/pic2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic3 {
+    background: url('../images/pic3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic4 {
+    background: url('../images/pic4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic5 {
+    background: url('../images/pic5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pic6 {
+    background: url('../images/pic6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
