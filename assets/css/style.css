@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('../images/spiration-light.png') repeat;
+    background: url('../images/concrete_seamless.png') repeat;
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     color: #777;
@@ -22,15 +22,22 @@ header {
 }
 
 header h1 {
-    background: #4aaaa5;
-    color: white;
-    display: inline-block;
-    padding: 20px;
-    font-size: 30px;
+        width: 250px;
+        height: 90px;
+        float: left;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align: center;
+        line-height: 90px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 30px;
+        text-decoration: none;
+        background: #4aaaa5;
 }
 
 nav {
     width: 300px; 
+    padding-right: 50px;
     float: right;
     margin-top: 35px;
     text-align: center;
@@ -182,38 +189,87 @@ nav ul li:last-child a {
 }
 
 #pic1 {
-    background: url('../images/pic1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('../images/pic1.jpg') no-repeat 0 -20px;
+    background-size: 100%;
+    background-size: cover; 
 }
 
 #pic2 {
     background: url('../images/pic2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #pic3 {
     background: url('../images/pic3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #pic4 {
-    background: url('../images/pic4.jpg');
+    background: url('../images/pic4.jpg') no-repeat 0 -50px;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #pic5 {
     background: url('../images/pic5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #pic6 {
     background: url('../images/pic6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+@media screen and (max-width: 980px ) {
+    .right-column {
+      width: 37%;
+    }
+    .main-section {
+      width: 60%;
+    }
+    #masthead {
+     width: 100%;
+    }
+    #logo {
+    width: 100%;
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .right-column {
+      width: 100%;
+    }
+    .main-section {
+      width: 100%;
+    }
+      #topbar {
+     width: 100%;
+    }
+     #name {
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 640) {
+    
+    .right-column {
+      width: 70%;
+      float: none;
+    }
+    .main-section {
+      width: 100%;
+    }
+      #topbar {
+      width: 100%;
+    }
+      #name {
+      width: 100%;
+  }
 
