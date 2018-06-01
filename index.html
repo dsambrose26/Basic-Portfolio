@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Home | Portfolio: Derek Ambrose</title>
-   <link rel="stylesheet" href="./assets/css/reset.css">
-   <link rel="stylesheet" href="./assets/css/style.css">
-
+	<!-- Document responsive across devices. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Document's character set. -->
+    <meta charset="UTF-8">
+	<title>Ambrose</title>
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Linking Google Fonts -->
+	<link rel="stylesheet" type="text/css"
+	      href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-    <header>
-        <div class="wrapper">
-            <h1>Derek Ambrose</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <div class="wrapper">
-        <section id="left-column">
-            <h2>About Me</h2>
+	<div class="header-container">
+		<header>Derek Ambrose</header>
 
-            <img src="https://i.ytimg.com/vi/A81q7Rmfqj8/maxresdefault.jpg" alt="Picture of Derek" width="350" height="197" class="inline-img">
-                <p>Hello! I'm Derek Ambrose and I am a native of New Orleans, Louisiana.</p> 
-                     
-                <p>Presently, I am enrolled at the Georgia Tech Coding Bootcamp. Prior to "tech", I was a stay-at-home dad, and prior to becoming a veteran I worked with graduate students as the Assistant Dean of Student Support and Recruitment.</p>
+		<nav>
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
 
-                <p>Fun fact: I know how to cook gumbo, jambalaya, and red beans and rice.</p>
-        </section>
+	<div class="main-container">
+		<section id="main-bio">
+			<h2>About Me</h2>
+			<img id="bio-image" src="assets/images/screenshot.jpeg" alt="It's me">
+			<!-- start slipsum code -->
+			<h1>Responsive Web Design</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non augue porttitor scelerisque ac id diam. Mauris
+			elit velit, lobortis sed interdum at, vestibulum vitae libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			Quisque iaculis ligula ut ipsum mattis viverra. Nulla a libero metus. Integer gravida tempor metus eget condimentum. Integer
+			eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar,
+			leo diam varius nisi, sed accumsan ligula urna sed felis. Mauris molestie augue sed nunc adipiscing et pharetra ligula suscipit.
+			In euismod lectus ac sapien fringilla ut eleifend lacus venenatis. </p>
 
-        <aside id="right-column">
+			<p>Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum
+			non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia
+			vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna. </p>
 
-        <h3>Connect with Me</h3>
-        <ul>
-            <li><a href="https://github.com/dsambrose26" target="_blank"><img src="./assets/images/github.png" alt="GitHub"/></a></li>
-            <li><a href="https://www.linkedin.com/in/derek-ambrose-157830144/" target="_blank"><img src="./assets/images/linkedin.png" alt="LinkedIn"/></a></li>
-            <li><a href="http://flexonpoint.com/" target="_blank"><img src="./assets/images/flexonpoint.png" alt="FlexOnPoint"/></a></li>
-        </ul>
-        </aside>
-    </div>
+			
+      <!-- end slipsum code -->
+    	</section>
 
-    <div class="clearfix"></div>
+    	<section id="social-links">
+      		<h3>Connect with Me</h3>
+      		<ul>
+        		<li class="left-align"><a href="https://github.com/dsambrose26"><img class="icon"  src="assets/images/github-128.png" alt="GitHub Profile"></a></li>
+        		<li class="left-align"><a href="https://www.linkedin.com/in/dereksambrose/"><img class="icon"  src="assets/images/square-linkedin-128.png" alt="LinkedIn Profile"></a></li>
+        		<li class="left-align"><a href=""><img class="icon"  src="assets/images/stackoverflow.png" alt="StackOverflow Profile"></a></li>
+      		</ul>
+    	</section>
+	</div>
 
-    <footer>
-        &copy;2018 Derek Ambrose
-    </footer>
-
+	<footer>&copy; 2018 Derek Ambrose</footer>
 </body>
 </html>
